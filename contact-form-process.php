@@ -3,10 +3,10 @@
 if (isset($_POST['submit'])) {
     $to = "roshandelmahshid@gmail.com";
     $from = $_POST ['email'];
-    $name = $_POST['name'];
+    $sender = $_POST['name'];
     $message = $_POST['message'];
 
-    mail($to, $subject, "From: $name <$from>");
+    mail($to, $subject, "From: $sender <$from>");
 
    echo "Thank you! Your message has been sent.";
 }
