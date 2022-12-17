@@ -8,7 +8,7 @@ if (isset($_POST['submit'])) {
 
     mail($to, $subject, "From: $name <$from>");
 
-    $thankYou="<p>Thank you! Your message has been sent.</p>";
+   echo "Thank you! Your message has been sent.";
 }
 
 ?>
