@@ -5,8 +5,9 @@ if (isset($_POST['submit'])) {
     $from = $_POST ['email'];
     $sender = $_POST['name'];
     $message = $_POST['message'];
-
-    mail($to, $subject, "From: $sender <$from>");
+    $header = "From: ". $from;
+        
+    mail($to, $message, $header,);
 
    echo "Thank you! Your message has been sent.";
 }
