@@ -7,7 +7,7 @@ if (isset($_POST['submit'])) {
     $message = $_POST['message'];
     $header = "From: ". $from;
         
-    mail($to, $message, $header,);
+    mail($to, $message, $header);
 
    echo "Thank you! Your message has been sent.";
 }
