@@ -166,13 +166,6 @@ $(".animated-progress span").each(function () {
   $(this).text($(this).attr("data-progress") + "%");
 });
 
-//Contact Form
-document.querySelector("#contact-form").addEventListener("submit", (e) => {
-  e.target.elements.name.value = "";
-  e.target.elements.email.value = "";
-  e.target.elements.message.value = "";
-});
-
 //Gallery
 $(document).ready(function () {
   var zindex = 10;
