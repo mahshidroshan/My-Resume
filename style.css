@@ -58,6 +58,11 @@ body {
   color: #fff;
 }
 
+.nav-link2 {
+  text-decoration: none;
+  color: #fff;
+}
+
 .preloader {
   align-items: center;
   background: #373b40;
@@ -1395,4 +1400,8 @@ footer {
 
 .dark .nav-link.active {
   color: #fff;
+}
+
+.dark .nav-link2 {
+  color: black;
 }
